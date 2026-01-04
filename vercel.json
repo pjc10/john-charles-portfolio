@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/tech", "destination": "/tech/index.html" },
+    { "source": "/content", "destination": "/content/index.html" },
+    { "source": "/product-ux", "destination": "/product-ux/index.html" },
+    { "source": "/about", "destination": "/about/index.html" }
+  ]
+}
